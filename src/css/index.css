@@ -123,11 +123,3 @@ h2.titles--title {
 .footer--list li a {
   color: #536471;
 }
-
-.test {
-  border-radius: 9999px;
-  background-color: red;
-  min-width: 300px;
-  max-width: 400px;
-  background-color: #1d9bf0;
-}
