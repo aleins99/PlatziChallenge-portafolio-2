@@ -11,7 +11,10 @@
   color: var(--brand-color);
   font-size: 30px;
 }
-
+button {
+  background-color: -internal-light-dark(#fff, #fff);
+  background: transparent;
+}
 .header--icon__white {
   color: white;
   font-size: 200px;
@@ -19,6 +22,7 @@
 .main {
   display: flex;
   flex-flow: column wrap;
+  justify-content: center;
 }
 .main--titles {
   margin: 20px;
@@ -38,7 +42,8 @@ h2.titles--title {
 .main--buttons {
   display: flex;
   flex-flow: column nowrap;
-  max-width: 60%;
+  max-width: 42%;
+
   margin: 10px;
 }
 .main--button {
@@ -58,8 +63,12 @@ h2.titles--title {
 }
 
 .main--button__blue {
-  background: var(--brand-color);
-  color: white;
+  background-color: rgb(29, 155, 240) !important;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 15px;
 }
 
 .main--button__white-blue {
@@ -86,6 +95,7 @@ h2.titles--title {
 .right {
   order: 1;
   max-height: 100%;
+  flex-basis: 58%;
 }
 
 .background {
@@ -112,4 +122,12 @@ h2.titles--title {
 
 .footer--list li a {
   color: #536471;
+}
+
+.test {
+  border-radius: 9999px;
+  background-color: red;
+  min-width: 300px;
+  max-width: 400px;
+  background-color: #1d9bf0;
 }

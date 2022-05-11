@@ -1,21 +1,21 @@
-:root{
-  --brand-color: #1d9bf0;
+:root {
+  --brand-color: rgb(29, 155, 240);
 }
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
