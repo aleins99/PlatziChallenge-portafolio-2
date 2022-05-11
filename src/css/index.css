@@ -1,7 +1,8 @@
 .container {
   display: flex;
-  order: 0;
+  flex-direction: row-reverse;
   gap: 5px;
+  min-height: 900px;
 }
 .header {
   margin: 20px;
@@ -23,6 +24,7 @@ button {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
+  max-width: 750px;
 }
 .main--titles {
   margin: 20px;
@@ -32,7 +34,6 @@ button {
 h1.titles--title {
   font-size: 64px;
   margin-bottom: 15px;
-  width: 500px;
   letter-spacing: -1.2px;
   line-height: 84px;
 }
@@ -42,50 +43,69 @@ h2.titles--title {
 .main--buttons {
   display: flex;
   flex-flow: column nowrap;
-  max-width: 42%;
+  max-width: 300px;
 
   margin: 10px;
 }
 .main--button {
   padding: 10px;
   border: 0;
-  border-radius: 15px;
+  border-radius: 999px;
   font-size: 18px;
   margin: 10px;
   width: 300px;
+}
+.main--button:hover {
+  cursor: pointer;
+  background-color: rgb(230, 230, 230);
 }
 .main--button:nth-of-type(2) {
   font-weight: bold;
 }
 .main--button__white {
-  border: 1px solid gray;
+  border: 1px solid rgb(207, 217, 222);
   background: white;
 }
-
+.main--login h3 {
+  margin: 40px 0 20px;
+}
 .main--button__blue {
   background-color: rgb(29, 155, 240) !important;
   max-width: 100%;
+  color: #fff;
+  text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 15px;
+  line-height: 20px;
+  font-weight: bold;
 }
 
 .main--button__white-blue {
   color: var(--brand-color);
+  margin: 10px;
 }
 
 .main--division {
+  display: flex;
   text-align: center;
   padding: 0 0 10px;
   padding-bottom: 0;
+  justify-content: center;
+  align-items: center;
 }
-
+.main--division .row {
+  height: 1px;
+  background-color: rgb(239, 243, 244);
+  min-width: 0px;
+  width: 120px;
+}
 .main--text {
   font-size: 10px;
-  width: 45%;
   margin: 5px 20px 20px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .text--link {
@@ -93,9 +113,9 @@ h2.titles--title {
 }
 
 .right {
-  order: 1;
   max-height: 100%;
-  flex-basis: 58%;
+  min-width: 45vw;
+  padding: 36px;
 }
 
 .background {
@@ -104,7 +124,7 @@ h2.titles--title {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: 42%;
+  flex-basis: 55vw;
 }
 
 .footer {
@@ -117,7 +137,7 @@ h2.titles--title {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 5%;
+  gap: 4%;
 }
 
 .footer--list li a {
