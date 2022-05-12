@@ -1,11 +1,10 @@
 .container {
   display: flex;
-  flex-direction: row-reverse;
-  gap: 5px;
-  min-height: 900px;
+  flex-direction: column;
+  font-size: 10px;
 }
 .header {
-  margin: 20px;
+  margin: 10px;
 }
 
 .header--icon {
@@ -27,13 +26,11 @@ button {
   max-width: 750px;
 }
 .main--titles {
-  margin: 20px;
+  margin-left: 15px;
   font-weight: 700;
 }
 
 h1.titles--title {
-  font-size: 64px;
-  margin-bottom: 15px;
   letter-spacing: -1.2px;
   line-height: 84px;
 }
@@ -51,7 +48,7 @@ h2.titles--title {
   padding: 10px;
   border: 0;
   border-radius: 999px;
-  font-size: 18px;
+  font-size: 12px;
   margin: 10px;
   width: 300px;
 }
@@ -67,8 +64,9 @@ h2.titles--title {
   background: white;
 }
 .main--login h3 {
-  margin: 40px 0 20px;
+  margin: 40px 0 20px 10px;
 }
+
 .main--button__blue {
   background-color: rgb(29, 155, 240) !important;
   max-width: 100%;
@@ -77,7 +75,6 @@ h2.titles--title {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 15px;
   line-height: 20px;
   font-weight: bold;
 }
@@ -115,7 +112,6 @@ h2.titles--title {
 .right {
   max-height: 100%;
   min-width: 45vw;
-  padding: 36px;
 }
 
 .background {
@@ -142,4 +138,31 @@ h2.titles--title {
 
 .footer--list li a {
   color: #536471;
+}
+
+@media (min-width: 590px) {
+  .container {
+    flex-direction: row-reverse;
+    gap: 5px;
+    min-height: 900px;
+  }
+  .header {
+    margin: 20px;
+  }
+  .main--titles {
+    margin: 20px;
+  }
+  .main--button {
+    font-size: 18px;
+  }
+  .main--button__blue {
+    font-size: 15px;
+  }
+  h1.titles--title {
+    font-size: 64px;
+    margin-bottom: 15px;
+  }
+  .right {
+    padding: 36px;
+  }
 }
