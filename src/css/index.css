@@ -8,11 +8,11 @@
 
 .header--icon {
   color: var(--brand-color);
-  font-size: 30px;
+  font-size: 3rem;
 }
 .header--icon__white {
   color: white;
-  font-size: 200px;
+  font-size: 20rem;
 }
 .main {
   display: flex;
@@ -123,7 +123,7 @@ h2.titles--title {
 .footer {
   width: 100%;
   padding: 20px;
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .footer--list {
