@@ -23,6 +23,7 @@
 .main--titles {
   font-family: chirp-extended;
   margin-left: 15px;
+  margin-right: auto;
   font-weight: 700;
 }
 
@@ -113,22 +114,22 @@ h2.titles--title {
 
 .right {
   max-height: 100%;
-  min-width: 45vw;
+  width: 100vw;
 }
 
 .background {
-  max-height: 100%;
+  max-height: 50%;
   background: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: 55vw;
+  flex-basis: 95%;
 }
 
 .footer {
   width: 100%;
   padding: 20px;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .footer--list {
@@ -146,9 +147,11 @@ h2.titles--title {
   .container {
     flex-direction: row-reverse;
     gap: 5px;
-    min-height: 900px;
+    min-height: 45vh;
   }
-
+  .main {
+    align-items: initial;
+  }
   .header,
   .main--titles {
     margin: 20px;
