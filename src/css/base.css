@@ -1,12 +1,12 @@
 @font-face {
   font-family: chirp-extended;
-  src: url(/chip/chirp-extended-heavy-web.otf);
+  src: url(../../chip/chirp-extended-heavy-web.otf);
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: chirp;
-  src: url(/chip/chirp-bold-web.otf);
+  src: url(../../chip/chirp-bold-web.otf);
   font-weight: 700;
   font-style: normal;
 }
