@@ -63,6 +63,9 @@ h2.titles--title {
 }
 .main--button__white a {
   color: #3c4043;
+  font-family: "Google Sans";
+  font-weight: 500;
+  font-size: 14px;
 }
 .main--login h3 {
   margin: 40px 0 10px 10px;
@@ -93,6 +96,7 @@ h2.titles--title {
   padding-bottom: 0;
   justify-content: center;
   align-items: center;
+  gap: 5px;
 }
 .main--division .row {
   height: 1px;

@@ -16,6 +16,14 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Google Sans Medium"),
+    url("/sans/ProductSans-Medium.woff") format("woff");
+}
+
 :root {
   --brand-color: rgb(29, 155, 240);
 }
