@@ -21,6 +21,7 @@
   max-width: 750px;
 }
 .main--titles {
+  font-family: chirp-extended;
   margin-left: 15px;
   font-weight: 700;
 }
@@ -59,8 +60,11 @@ h2.titles--title {
   border: 1px solid rgb(207, 217, 222);
   background: white;
 }
+.main--button__white a {
+  color: #3c4043;
+}
 .main--login h3 {
-  margin: 40px 0 20px 10px;
+  margin: 40px 0 10px 10px;
   font-size: 0.9rem;
 }
 
@@ -96,10 +100,11 @@ h2.titles--title {
   width: 120px;
 }
 .main--text {
-  font-size: 10px;
+  font-size: 11px;
   margin: 5px 20px 20px;
   text-align: center;
   margin: 0 auto;
+  color: rgb(83, 100, 113);
 }
 
 .text--link {
@@ -123,7 +128,7 @@ h2.titles--title {
 .footer {
   width: 100%;
   padding: 20px;
-  font-size: 1.2rem;
+  font-size: 12px;
 }
 
 .footer--list {
@@ -149,10 +154,13 @@ h2.titles--title {
     margin: 20px;
   }
 
-  .main--button,
-  .main--login h3 {
-    font-size: 1rem;
+  .main--button {
+    font-size: 15px;
   }
+  .main--login h3 {
+    font-size: 17px;
+  }
+
   .main--button__blue {
     font-size: 15px;
   }

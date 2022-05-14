@@ -1,3 +1,21 @@
+@font-face {
+  font-family: chirp-extended;
+  src: url(/chip/chirp-extended-heavy-web.otf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: chirp;
+  src: url(/chip/chirp-bold-web.otf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: chirp;
+  src: url(/chip/chirp-regular-web.otf);
+  font-weight: normal;
+  font-style: normal;
+}
 :root {
   --brand-color: rgb(29, 155, 240);
 }
@@ -6,10 +24,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
 }
 
 a {
@@ -21,5 +35,5 @@ ul {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: chirp, sans-serif;
 }
