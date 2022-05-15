@@ -154,6 +154,9 @@ h2.titles--title {
     flex-direction: row-reverse;
     min-height: 45vh;
   }
+  .right {
+    flex-basis: 60%;
+  }
   .main {
     align-items: initial;
   }
