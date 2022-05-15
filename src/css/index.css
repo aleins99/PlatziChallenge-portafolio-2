@@ -125,7 +125,8 @@ h2.titles--title {
 
 .background {
   max-height: 50%;
-  background: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
+  background: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png")
+    center;
   display: flex;
   justify-content: center;
   align-items: center;
