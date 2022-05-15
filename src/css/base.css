@@ -21,7 +21,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Google Sans Medium"),
-    url("/sans/ProductSans-Medium.woff") format("woff");
+    url("../../sans/ProductSans-Medium.woff") format("woff");
 }
 
 :root {

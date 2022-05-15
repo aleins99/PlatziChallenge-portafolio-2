@@ -1,6 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 .header {
   margin: 10px;
@@ -119,7 +120,6 @@ h2.titles--title {
 
 .right {
   max-height: 100%;
-  width: 100vw;
   padding: 26px;
 }
 
@@ -129,7 +129,7 @@ h2.titles--title {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: 75%;
+  flex-basis: 40%;
 }
 
 .footer {
@@ -152,7 +152,6 @@ h2.titles--title {
 @media (min-width: 590px) {
   .container {
     flex-direction: row-reverse;
-    gap: 5px;
     min-height: 45vh;
   }
   .main {
